@@ -7,11 +7,11 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
 if (thehours < 12){
-    document.getElementById("weather").style.backgroundImage =`url('/assets/img/sunrise.jpg')`;
+    document.getElementById("weather").style.backgroundImage =`url('assets/img/sunrise.jpg')`;
 }else if(thehours < 18 ){
-    document.getElementById("weather").style.backgroundImage=`url('/assets/img/sunset.png')`;
+    document.getElementById("weather").style.backgroundImage=`url('assets/img/sunset.png')`;
 }else{
-    document.getElementById("weather").style.backgroundImage= `url('/assets/img/nightsky.jpg')`;
+    document.getElementById("weather").style.backgroundImage= `url('assets/img/nightsky.jpg')`;
 }
 
 
